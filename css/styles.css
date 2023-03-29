@@ -359,9 +359,9 @@ button {
       rgba(46, 47, 66, 0.7)
     ),
     url("/images/hero-image.jpg");
-  background-repeat: no-repeat, no-repeat;
-  background-position: center, center;
-  background-size: cover, cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .small-text-image {
   width: 264px;
