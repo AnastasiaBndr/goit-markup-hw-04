@@ -352,6 +352,8 @@ button {
 
 /* ==================IMAGES AND VECTOR================== */
 .hero {
+  max-width: 1400px;
+  margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -405,6 +407,10 @@ button {
 .our-team-soc-icon {
   fill: var(--small-text-dark-theme-color);
 }
+.our-team-link:hover,
+.our-team-link:focus {
+  background-color: var(--hover-and-focus-color);
+}
 .customers-list {
   display: flex;
   justify-content: space-between;
@@ -420,6 +426,23 @@ button {
 }
 .customers-item:nth-child(-n + 5) {
   margin-right: 24px;
+}
+.customers-icon {
+  fill: #afb1b8;
+}
+.customers-icon:hover,
+.customers-icon:focus {
+  fill: var(--hover-and-focus-color);
+}
+.customers-item:hover,
+.customers-item:focus {
+  border: 1px solid var(--hover-and-focus-color);
+  border-radius: 4px;
+  width: 188px;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer-links {
   display: flex;
