@@ -190,6 +190,8 @@ button {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
 
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -287,6 +289,8 @@ button {
 }
 
 .our-team {
+  max-width: 1400px;
+  margin: 0 auto;
   background-color: var(--small-text-dark-theme-color);
   padding-top: 120px;
   padding-bottom: 120px;
@@ -304,6 +308,10 @@ button {
 }
 .footer-links {
   margin-top: 16px;
+}
+.page-footer {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 .footer-header {
   font-family: "Roboto";
