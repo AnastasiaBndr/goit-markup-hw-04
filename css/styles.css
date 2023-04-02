@@ -372,6 +372,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 4px;
 }
 .small-text-icon {
   width: 64px;
@@ -414,7 +415,7 @@ button {
   background-color: var(--hover-and-focus-color);
 }
 .footer-links .our-team-link:hover,
-.footer-links .our-team-link:hover {
+.footer-links .our-team-link:focus {
   background-color: var(--green-icon-focus-hover-color);
 }
 .customers-list {
@@ -437,13 +438,14 @@ button {
   padding: 16px 32px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  color: #8e8f99;
 }
-.customers-icon{
-  color: currentColor;
+.customers-icon {
+  fill: currentColor;
 }
 .customers-link:hover,
 .customers-link:focus {
-  fill: var(--hover-and-focus-color);
+  color: var(--hover-and-focus-color);
   border-color: var(--hover-and-focus-color);
 }
 .footer-links {
