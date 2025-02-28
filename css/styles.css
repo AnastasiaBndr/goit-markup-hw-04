@@ -239,19 +239,6 @@ button {
   margin-bottom: 16px;
 }
 
-.footer-header {
-  font-family: "Roboto";
-  display: block;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-
-  letter-spacing: 0.02em;
-
-  color: var(--background-color);
-
-  margin-bottom: 16px;
-}
 
 /* ==================BOXING PORTFOLIO================== */
 .container {
@@ -264,6 +251,18 @@ button {
 
 .page-footer p {
   max-width: 264px;
+
+  font-family: "Roboto";
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: var(--background-color);
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
 .page-header {
@@ -346,9 +345,6 @@ ul.list .address-item:last-child {
   padding-bottom: 100px;
 }
 
-.page-footer p {
-  margin-top: 16px;
-}
 
 .name-position {
   padding: 32px 0;
@@ -560,8 +556,13 @@ ul.list .address-item:last-child {
 .webstudio-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
+
+.webstudio-container > div:first-child {
+  margin-right: 120px; /* або потрібне значення */
+}
+
+
 
 /* ==================ANIMATION AND OVERLAYS================== */
 .overlay {
