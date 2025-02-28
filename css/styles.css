@@ -507,8 +507,12 @@ ul.list .address-item:last-child {
 .our-team-link:focus {
   background-color: var(--hover-and-focus-color);
 }
-.footer-links .our-team-link:hover,
-.footer-links .our-team-link:focus {
+
+.footer-link-item .our-team-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-link-item .our-team-link:hover,
+.footer-link-item .our-team-link:focus {
   background-color: var(--green-icon-focus-hover-color);
 }
 .customers-list {
