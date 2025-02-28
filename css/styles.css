@@ -241,6 +241,7 @@ button {
   display: block;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
@@ -254,7 +255,7 @@ button {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  border: px solid #e7e9fc;
+  border: 0 solid #e7e9fc;
   border-top: none;
 }
 
@@ -542,9 +543,12 @@ ul.list .address-item:last-child {
 }
 .footer-links {
   display: flex;
+  gap: 16px;
 }
 .webstudio-container {
   display: flex;
+  align-items: baseline;
+  gap: 120px;
 }
 
 /* ==================ANIMATION AND OVERLAYS================== */
@@ -607,15 +611,6 @@ ul.list .address-item:last-child {
   border-radius: 2px;
 }
 
-.links,
-.webstudio {
-  display: block;
-}
-
-.links {
-  margin-left: 120px;
-}
-
 .footer-descr {
   text-align: left;
 }
@@ -629,6 +624,12 @@ ul.list .address-item:last-child {
     0px 1px 6px 0px #2e2f4214;
 }
 
-.small-title-portfolio, .small-descr-portfolio{
+.small-title-portfolio,
+.small-descr-portfolio {
   text-align: left;
+}
+
+.footer-link-item {
+  width: 40px;
+  height: 40px;
 }
